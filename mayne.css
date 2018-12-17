@@ -1,0 +1,65 @@
+body {
+	background-color: #A5DCFC;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 0px 15px;
+}
+ul {
+	padding: 0px;
+	list-style-type: none;
+	opacity: 0;
+	transition: opacity .3s ease;
+}
+h1 {
+	padding: 30px 15px;
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	color: #254E70;
+	text-align: center;
+	width: 20%;
+	opacity: 0%;
+	margin: 0 auto 25px auto;
+	animation-name: example;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.first {
+	background-color: #E7E6F7;
+}
+.h2 {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	color: #C1F8FF;
+	background-color: #7bebd8;
+	width: 15%;
+	padding: 0.5%;
+	margin: 0 auto 2% auto;
+}
+.img {
+	display: block;
+	text-align: center;
+	height: 30%;
+	width: 25%;
+	padding: 5px;
+	margin: 0 auto 2% auto;
+	border-style: ridge;
+	border-color: #C1F8FF;
+}
+p {
+	background-color: #bbeef5; 
+	margin: 0 auto 5% auto;
+	width: 75%;
+	padding: 3%;
+	font-family: 'Nunito', sans-serif;
+}
+.img:hover {
+	filter: contrast(230%);
+}
+@keyframes example {
+	from {background-color: #A5DCFC; font-size: 40px; padding: 15px 10px; width: 20%; opacity: 0%; font-family: Helvetica;	margin: 0 auto 25px auto;}
+	to {background-color: #C1F8FF; font-size: 60px; padding: 30px 20px; width: 40%; opacity: 100%; font-family: fantasy;	margin: 0 auto 50px auto;}
+}
